@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.table {
+    display: table;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.tableHeader {
+    display: table-row;
+    font-weight: bold;
+    background-color: #343a40;
+    color: white;
+}
+
+.tableRow {
+    display: table-row;
+}
+
+.tableCell {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #eaeaea;
+    vertical-align: top;
+}
+
+.review {
+    width: 100%; /* Expands the review section */
+    padding: 10px;
+    background-color: #d9dadb;
+    color: #495057;
+}
+
+.tableHeader .tableCell {
+    text-align: center;
+}
