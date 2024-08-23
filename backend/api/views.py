@@ -1,11 +1,5 @@
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from rest_framework import status, generics
-from .models import Game
-from .serializers import GameSerializer
-
-from rest_framework.decorators import api_view
-from rest_framework.response import Response
 from rest_framework import status
 from .models import Game
 from .serializers import GameSerializer
